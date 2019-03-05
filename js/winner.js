@@ -1,13 +1,14 @@
 let segs = 0;
+const topeIMG = personajes.length / 2;
 function winner()
 {
 const body = document.getElementById('body');
 const contenedorCal = document.getElementById('contenedorCalificación');    
 
-        for(let i = 1; i <= 26; i++)
+        for (let i = 1; i <= topeIMG; i++)
         {
             let imagen = document.getElementById(`Player${i}`);
-            if(imagen.alt !== 'win')
+            if (imagen.alt !== 'win')
             {
                 return
             }
@@ -34,7 +35,7 @@ const contenedorCal = document.getElementById('contenedorCalificación');
     {
         starTHREE.className = 'None';
         starTWO.className = 'None';
-    } 
+    }  
     else
     {
         starTHREE.className = 'None';
