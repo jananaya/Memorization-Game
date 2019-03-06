@@ -2,7 +2,6 @@ let segs = 0;
 const topeIMG = personajes.length / 2;
 function winner()
 {
-const body = document.getElementById('body');
 const contenedorCal = document.getElementById('contenedorCalificación');    
 
         for (let i = 1; i <= topeIMG; i++)
@@ -14,9 +13,8 @@ const contenedorCal = document.getElementById('contenedorCalificación');
             }
         }
         contenedorCal.removeAttribute('class');
-        body.className = 'recortar';
         MusicaDeFondo.muted = 10;
-        efectosDeSonido.src='sound/victory.mp3';
+        efectosDeSonido.src = 'sound/victory.mp3';
         let restablecer = function()
         {
             MusicaDeFondo.muted = 0;
@@ -36,7 +34,7 @@ const contenedorCal = document.getElementById('contenedorCalificación');
         starTHREE.className = 'None';
         starTWO.className = 'None';
     }  
-    else
+    else if (segs > 420)
     {
         starTHREE.className = 'None';
         starTWO.className = 'None';
