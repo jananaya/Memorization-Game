@@ -1,0 +1,25 @@
+{
+  "name": "memory-game",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jananaya/memory-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jananaya/memory-game/issues"
+  },
+  "homepage": "https://gitlab.com/jananaya/memory-game#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
