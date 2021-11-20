@@ -1,7 +1,7 @@
 namespace Paths {
 
     export namespace Audio {
-        const folderPath = 'resources/sound/'
+        const folderPath = 'resources/sound'
         export const click = `${folderPath}/WR_beep.wav`
         export const success = `${folderPath}/elevbell1.wav`
         export const error = `${folderPath}/WR_warn.wav`
@@ -9,12 +9,12 @@ namespace Paths {
     }
 
     export namespace Image {
-        const folderPath = 'resources/img/'
+        const folderPath = 'resources/img'
         const charactersPath = `${folderPath}/characters`
 
         export const onSpeaker = `${folderPath}/onSpeaker.png`
         export const offSpeaker = `${folderPath}/offSpeaker.png`
-        export const blackBackground = `${folderPath}/darkBackground.png`
+        export const blackBackground = `${folderPath}/darkBackground.jpg`
 
         export const characters = [
             `${charactersPath}/Baise.jpg`,
