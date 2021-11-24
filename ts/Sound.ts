@@ -8,12 +8,12 @@ namespace Sound {
 
     audioBackgroundElement.src = Path.Audio.background;
 
-    function offAudio(audio: HTMLAudioElement): void {
+    function turnOffAudio(audio: HTMLAudioElement): void {
         soundIcon.src = Path.Image.offSpeaker
         audio.volume = 0
     }
 
-    function onAudio(audio: HTMLAudioElement): void {
+    function turnOnAudio(audio: HTMLAudioElement): void {
         soundIcon.src = Path.Image.onSpeaker
         audio.volume = 1
     }
@@ -21,9 +21,9 @@ namespace Sound {
     function changeSound(audio: HTMLAudioElement): void {
 
         if (muted % 2 === 0)
-            offAudio(audio)
+            turnOffAudio(audio)
         else
-            onAudio(audio)
+            turnOnAudio(audio)
 
         muted++;
     }
