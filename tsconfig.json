@@ -4,7 +4,7 @@
     "module": "es6",
     "target": "ES2016",
      
-    "outDir": "./build",
+    "outDir": "./public/js",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
