@@ -18,8 +18,5 @@
   "homepage": "https://gitlab.com/jananaya/memory-game#readme",
   "devDependencies": {
     "typescript": "^4.4.4"
-  },
-  "dependencies": {
-    "bootstrap": "^5.1.3"
   }
 }
